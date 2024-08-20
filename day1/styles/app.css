@@ -1,0 +1,19 @@
+body {
+  background-color: goldenrod;
+  /* background-image: url("https://picsum.photos/500/400"); */
+}
+h1 {
+  /* border-width: 3px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 50px; */
+  padding: 10px;
+  margin: 0px;
+}
+main {
+  min-height: 80vh;
+}
+
+footer {
+  padding: 10px;
+}
