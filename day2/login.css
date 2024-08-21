@@ -1,0 +1,72 @@
+/* Universal selector */
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 500px;
+  display: flex;
+  padding: 20px;
+  background-color: #6ee7ad;
+  color: white;
+}
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+label {
+  width: 100%;
+}
+input {
+  width: 95%;
+  font-size: 1.5em;
+  padding: 10px;
+}
+.submit {
+  background-color: rgb(68, 191, 68);
+  color: white;
+  padding: 5px;
+  font-size: 1.5em;
+  margin: 10px;
+}
+.submit:hover {
+  background-color: darkgreen;
+}
+.submit:active {
+  background-color: yellowgreen;
+}
+.reset {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-size: 1.5em;
+}
+.reset:hover {
+  background-color: darkred;
+}
+.reset:active {
+  background-color: crimson;
+}
+h1 {
+  text-align: center;
+}
+a {
+  margin-left: 20px;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: rgba(51, 37, 241, 0.5);
+}
+a:hover {
+  color: rgba(51, 37, 241, 1);
+}
