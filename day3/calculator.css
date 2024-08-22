@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* to align calculator in center */
+#ac {
+  display: flex;
+  justify-content: center;
+}
+/* container for all the components - textbox, header, grid-container */
+.container {
+  width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(120, 100%, 40%);
+  color: white;
+}
+/* applying CSS grid layout to lay out buttong elements */
+.grid-container {
+  width: 500px;
+  background-color: hsl(120, 100%, 40%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  grid-gap: 10px; /* old style */
+  gap: 10px;
+  /* gap: 10px 20px; */
+}
+.grid-container button {
+  border-radius: 10px;
+  font-size: 2em;
+  cursor: pointer;
+  padding: 10px;
+  background-color: hsl(120, 70%, 70%);
+}
+.grid-container button:hover {
+  background-color: hsl(120, 70%, 50%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 1);
+}
+.grid-container button:active {
+  background-color: hsl(120, 70%, 30%);
+}
+input {
+  width: 99%;
+  font-size: 3em;
+  background-color: hsl(120, 70%, 70%);
+  text-align: right;
+}
+.grid-container button:nth-child(25) {
+  /* grid-column-start: 1;
+  grid-column-end: 5; */
+  grid-column: 1 / span 4;
+  background-color: orange;
+  color: white;
+}
